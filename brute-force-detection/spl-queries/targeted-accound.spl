@@ -1,0 +1,4 @@
+index=bruteforce "Event ID"=4625
+| rex "Account Name:\s+(?<AccountName>[^\s]+)"
+| stats count by AccountName
+| sort -count
