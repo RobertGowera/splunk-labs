@@ -1,0 +1,2 @@
+index=bruteforce "Event ID"=4625
+| stats count
