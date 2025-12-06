@@ -1,0 +1,5 @@
+index=bruteforce.spl "Event ID"=4625
+| rex "Account Name:\s+(?<AccountName>[^\s]+)"
+| bin _time span=5m
+| stats count by AccountName, _time
+| where count >= 4
