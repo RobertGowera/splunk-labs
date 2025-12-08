@@ -4,7 +4,7 @@
 
 This lab simulates and detects privilege escalation behaviour on a Windows endpoint using Splunk Cloud and Windows Security Event Logs. The investigation focuses on identifying special privilege assignments (Event ID 4672) and elevated process execution (Event ID 4688) to confirm whether administrative-level access was obtained and abused.
 
-This detection is mapped to MITRE ATT&CK T1068 – Privilege Escalation.
+This detection is mapped to **MITRE ATT&CK T1068 – Privilege Escalation**.
 
 ## Objectives
 
