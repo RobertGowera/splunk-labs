@@ -1,0 +1,4 @@
+index=main host=privilege-escalation "Event ID"=4688
+| rex field=_raw "Process Name:\s+(?<ProcessName>[^\r\n]+)"
+| stats count by ProcessName
+| sort -count
