@@ -4,7 +4,7 @@ Windows Brute-Force Detection Using Splunk SIEM
 
 This project demonstrates the detection, investigation, and reporting of a brute-force authentication attack targeting a **Windows machine account** using **Splunk SIEM**. The lab simulates real-world SOC analyst responsibilities including log ingestion, SPL query development, attack analysis, MITRE ATT&CK mapping, and incident response reporting.
 
-A total of **22 failed authentication attempts** were recorded against the machine account **'VIROTA$'**, with a maximum of **4 failed attempts occurring within a single minute**.
+A total of **22 failed authentication attempts** were recorded against the machine account **'LAB-SERVICE-01$'**, with a maximum of **4 failed attempts occurring within a single minute**.
 
 ---
 
@@ -55,7 +55,7 @@ A total of **22 failed authentication attempts** were recorded against the machi
 | Metric |	Result |
 |--------|---------|
 | Total Failed Attempts |	**22** |
-| Target Account |	**VIROTA$** |
+| Target Account |	**LAB-SERVICE-01$** |
 | Peak Rate |	**4 attempts per minute** |
 | Attack Type |	**Brute-force authentication** |
 | Compromise Detected |	**No** |
@@ -113,7 +113,7 @@ index=main "Event ID"=4625
 | Indicator |	Value |
 |-----------|-------|
 | Event ID | 4625 |
-|Account Name | VIROTA$ |
+|Account Name | LAB-SERVICE-01$ |
 |Attack Type | Brute Force |
 |Max Attempts/Minute | 4 |
 |Total Attempts | 22 |
