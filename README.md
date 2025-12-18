@@ -20,7 +20,7 @@ Each project demonstrates:
 Multiple failed authentication attempts detected against a Windows endpoint.
 
 **Key Findings:**
-- Targeted Account: `VIROTA$`
+- Targeted Account: `LAB-SERVICE-01$`
 - Total Failed Attempts: **22**
 - Peak Velocity: **4 attempts in one minute**
 - Event ID: **4625**
