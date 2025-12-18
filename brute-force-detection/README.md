@@ -1,10 +1,13 @@
 # splunk-bruteforce-detection
 Windows Brute-Force Detection Using Splunk SIEM
 # Project Overview
+> ⚠️ All identifiers (usernames, hostnames and IP addresses) have been sanitised.
+> This lab was conducted in a controlled environment for educational purposes only.
+
 
 This project demonstrates the detection, investigation, and reporting of a brute-force authentication attack targeting a **Windows machine account** using **Splunk SIEM**. The lab simulates real-world SOC analyst responsibilities including log ingestion, SPL query development, attack analysis, MITRE ATT&CK mapping, and incident response reporting.
 
-A total of **22 failed authentication attempts** were recorded against the machine account **'LAB-SERVICE-01$'**, with a maximum of **4 failed attempts occurring within a single minute**.
+A total of **22 failed authentication attempts** were recorded against the machine account **'LAB-SERVICE-01$'** (Sanitised), with a maximum of **4 failed attempts occurring within a single minute**.
 
 ---
 
