@@ -12,7 +12,7 @@
 
 **1. Executive Summary**
 
-On 02 December 2025, multiple failed authentication attempts were detected against the Windows machine account VIROTA$. A total of 22 failed login attempts were recorded within a short time frame, with a maximum of 4 attempts occurring within a single minute. The activity pattern was consistent with a brute-force credential attack.
+On 02 December 2025, multiple failed authentication attempts were detected against the Windows machine account LAB-SERVICE-01$. A total of 22 failed login attempts were recorded within a short time frame, with a maximum of 4 attempts occurring within a single minute. The activity pattern was consistent with a brute-force credential attack.
 
 No successful authentication events (Event ID 4624) were observed for the targeted account during or after the attack window, indicating that the brute-force attempt was unsuccessful and no system compromise occurred.
 
@@ -45,7 +45,7 @@ This confirmed a peak rate of 4 failed authentication attempts within one minute
 | Indicator Type | Value |
 |---|---|
 | Event ID | 4625 |
-| Target Account |	VIROTA$ |
+| Target Account |	LAB-SERVICE-01$ |
 | Total Failed Attempts |	22 |
 | Peak Rate |	4 attempts per minute |
 | Attack Type |	Brute-force authentication |
@@ -57,7 +57,7 @@ This confirmed a peak rate of 4 failed authentication attempts within one minute
 
 - **Asset Type:** Windows Machine Account
 
-- **Account Name:** VIROTA$
+- **Account Name:** LAB-SERVICE-01$
 
 - **Account Classification:** System / Host account
 
