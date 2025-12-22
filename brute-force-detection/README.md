@@ -80,6 +80,7 @@ A total of **22 failed authentication attempts** were recorded against the machi
 
 ![Index Overview](screenshots/index-overview.jpg)
 **overview of the index**
+
 ---
 
 ## Key SPL Queries Used
