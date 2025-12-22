@@ -66,7 +66,7 @@ A total of **22 failed authentication attempts** were recorded against the machi
 
 ---
 # Screenshots
-![Failed Logon Detection](screenshots/4625 Detection.png)
+![Failed Logon Detection](screenshots/4625-detection.png)
 **4625 detection**
 
 ![Targeted Account](screenshots/targeted-account.jpg)
