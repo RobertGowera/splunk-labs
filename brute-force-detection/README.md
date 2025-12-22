@@ -66,10 +66,10 @@ A total of **22 failed authentication attempts** were recorded against the machi
 
 ---
 # Screenshots
-![Failed Logon Detection](screenshots/4625-detection.png)
+![Failed Logon Detection](screenshots/4625 Detection.png)
 **4625 detection**
 
-![Targeted Account](screenshots/targeted-account.png)
+![Targeted Account](screenshots/targeted-account.jpg)
 **the targeted account**
 
 ![Brute Force Timechart](screenshots/bruteforce-timechart.png)
