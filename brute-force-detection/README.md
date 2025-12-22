@@ -78,7 +78,7 @@ A total of **22 failed authentication attempts** were recorded against the machi
 ![Brute Force Alert](screenshots/alert-rule.png)
 **new alert rule for future use**
 
-![Index Overview](screenshots/index-overview.png)
+![Index Overview](screenshots/index-overview.jpg)
 **overview of the index**
 ---
 
