@@ -1,7 +1,7 @@
 # splunk-bruteforce-detection
 Windows Brute-Force Detection Using Splunk SIEM
 # Project Overview
-> ⚠️ All identifiers (usernames, hostnames and IP addresses) have been sanitised.
+> ⚠️ All identifiers (usernames, hostnames and IP addresses) and screenshots have been sanitised.
 > This lab was conducted in a controlled environment for educational purposes only.
 
 
